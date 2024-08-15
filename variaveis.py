@@ -23,7 +23,12 @@
 #print(type(b))
 #print(complex(2, 5))
 
-lista = ["a", "b", "c"]
-numeros = [2, 4]
-print(type(lista))
-print(type(numeros))
+#lista = ["a", "b", "c"] são mutáveis, ou seja, podem ser editadas
+#numeros = [2, 4]
+#print(type(lista))
+#print(type(numeros))
+
+valores = (1, 2, 4, 89, 24)
+pontos =(23.45, 67.5, 956.7)
+print(type(valores))
+print(type(pontos))
