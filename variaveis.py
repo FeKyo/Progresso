@@ -17,10 +17,13 @@
 #nandoéTop = True
 #print(type(nandoéTop))
 
-j = 1
-a = 5+2j
-b = 20+6j
+#a = 5+2j
+#b = 20+6j
+#print(type(a))
+#print(type(b))
+#print(complex(2, 5))
 
-print(type(a))
-print(type(b))
-print(complex(2, 5))
+lista = ["a", "b", "c"]
+numeros = [2, 4]
+print(type(lista))
+print(type(numeros))
