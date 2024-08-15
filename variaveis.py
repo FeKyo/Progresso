@@ -41,3 +41,24 @@
 #c = {'fasd', 'sjdka'}
 #print(type(c))
 #print(type(d))
+
+# Aritiméticos:
+# + adição
+# - subtração
+# * multiplicação
+# / divisão
+# // divisão inteira
+# % módulo
+# ** exponenciação
+
+#x = 4**1000
+#print(x) 
+
+# Atribuição:
+# = equivalente a x = 1
+# += equivalente x = x + 1
+# -= equivalente x = x - 1
+# *= equivalente x = x * 1
+# /= equivalente x = x/1
+# %= equivalente x = x%1
+
