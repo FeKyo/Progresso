@@ -3,10 +3,10 @@
 #Profissão = "FullSail"
 #print(type(nome))
 #print(type(Profissão))
-y =3218391893819381
-x =12949
-#print(type(ano))
-#print(type(idade))
+y = 3
+x = 1
+#print(type(x))
+#print(type(y))
 print(x + y)
 pi = 3.1415
 print(type(pi))
