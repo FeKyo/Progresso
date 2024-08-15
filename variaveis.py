@@ -62,3 +62,22 @@
 # /= equivalente x = x/1
 # %= equivalente x = x%1
 
+#pato = 5
+#pato += 5
+#print(pato)
+#gato = 5
+#gato *= 5
+#gato /= 5
+#print(gato)
+
+# Comparação:
+# == igual a
+# != diferente de
+# >  maior que
+# >= maior ou igual que
+# < menor que
+# <= menor ou igual que
+
+#pato = 1
+#print(pato == 1)
+#print(pato != 1)
