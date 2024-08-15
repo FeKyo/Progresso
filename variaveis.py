@@ -36,3 +36,8 @@
 #altura = {"Erick": 1, "Nando": 2, "asdksa": 9}
 #print(type(altura))
 #print(altura)
+
+#d = {1, 3, 4}
+#c = {'fasd', 'sjdka'}
+#print(type(c))
+#print(type(d))
