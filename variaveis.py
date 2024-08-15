@@ -28,7 +28,11 @@
 #print(type(lista))
 #print(type(numeros))
 
-valores = (1, 2, 4, 89, 24)
-pontos =(23.45, 67.5, 956.7)
-print(type(valores))
-print(type(pontos))
+#valores = (1, 2, 4, 89, 24)
+#pontos =(23.45, 67.5, 956.7)
+#print(type(valores))
+#print(type(pontos))
+
+#altura = {"Erick": 1, "Nando": 2, "asdksa": 9}
+#print(type(altura))
+#print(altura)
