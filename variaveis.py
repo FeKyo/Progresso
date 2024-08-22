@@ -110,7 +110,16 @@
 #while (índice < tamanho_lista):
 #    print(Animais[índice], ':\t\t', Números[índice])
 #    índice += 1
+#print('Lista usando WHILE')
+#while (índice < tamanho_lista):
+#    print(f'{Animais[índice]} :  {Números[índice]}')
+#    índice += 1
 #
 #print('Lista usando FOR')
 #for Indice in range(tamanho_lista):
 #    print(Animais[índice], ':\t\t', Números[índice])
+
+Animais = {"Gato": 1, "Rato": 2, "Pato": 3} #esse aqui é DICIONÁRIO
+print("\nLista usando FOR com DICIONÁRIO")
+for nome, número in Animais.items():
+    print (nome, "\t\t", número)
