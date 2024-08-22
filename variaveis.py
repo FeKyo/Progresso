@@ -123,3 +123,5 @@ Animais = {"Gato": 1, "Rato": 2, "Pato": 3} #esse aqui é DICIONÁRIO
 print("\nLista usando FOR com DICIONÁRIO")
 for nome, número in Animais.items():
     print (nome, "\t\t", número)
+
+    
