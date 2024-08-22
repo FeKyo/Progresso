@@ -94,3 +94,9 @@
 #while pato < 10: 
 #    pato += 1
 #    print("murilo")
+
+#pato = 7
+#for gato in range(10):
+#    print(pato)
+#for pato in range(10):
+#    print(pato)
