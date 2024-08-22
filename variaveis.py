@@ -88,5 +88,9 @@
 #if pato == 7: print("pato")
 #else: print("gato")
 
-pato = 3
-while pato == 4: print("murilo")
+#pato = 3
+#while pato == 3: print("murilo")
+#pato = 1
+#while pato < 10: 
+#    pato += 1
+#    print("murilo")
