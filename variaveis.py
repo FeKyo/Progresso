@@ -100,3 +100,17 @@
 #    print(pato)
 #for pato in range(10):
 #    print(pato)
+
+#Animais = ["Gato", "Rato", "Pato"] #esse aqui é LISTA
+#Números = [1, 2, 3]
+#tamanho_lista = len(Animais)
+#índice = 0#para fazer o while funcionar
+#
+#print('Lista usando WHILE')
+#while (índice < tamanho_lista):
+#    print(Animais[índice], ':\t\t', Números[índice])
+#    índice += 1
+#
+#print('Lista usando FOR')
+#for Indice in range(tamanho_lista):
+#    print(Animais[índice], ':\t\t', Números[índice])
