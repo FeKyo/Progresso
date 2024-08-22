@@ -81,3 +81,12 @@
 #pato = 1
 #print(pato == 1)
 #print(pato != 1)
+
+#pato = 5
+#if pato == 5: print("pato") 
+#elif pato == 6: pato += 1
+#if pato == 7: print("pato")
+#else: print("gato")
+
+pato = 3
+while pato == 4: print("murilo")
