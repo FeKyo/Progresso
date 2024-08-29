@@ -119,9 +119,19 @@
 #for Indice in range(tamanho_lista):
 #    print(Animais[índice], ':\t\t', Números[índice])
 
-Animais = {"Gato": 1, "Rato": 2, "Pato": 3} #esse aqui é DICIONÁRIO
-print("\nLista usando FOR com DICIONÁRIO")
-for nome, número in Animais.items():
-    print (nome, "\t\t", número)
+#Animais = {"Gato": 1, "Rato": 2, "Pato": 3} #esse aqui é DICIONÁRIO
+#print("\nLista usando FOR com DICIONÁRIO")
+#for nome, número in Animais.items():
+#    print (nome, "\t\t", número)
 
-    
+#def função():
+#    print ("oi")
+#função()
+
+
+def parametro(a):
+        print(a)
+parametro('café')
+def sum(a, b):
+      print (a + b)
+sum(1, 3)
