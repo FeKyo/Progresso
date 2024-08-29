@@ -128,10 +128,43 @@
 #    print ("oi")
 #função()
 
+#def parametro(a):
+#        print(a)
+#parametro('café')
+#def sum(a, b):
+#      print (a + b)
+#sum(1, 3)
+#sum( "pato, ", "gato")
+#
+#def soma(a, b, c):
+#    print ((a + b)* c)
+#
+#soma(1, 3, 6)
+#soma(c=4, a = 2, b =9)
 
-def parametro(a):
-        print(a)
-parametro('café')
-def sum(a, b):
-      print (a + b)
-sum(1, 3)
+#def tabuada(a, b):
+#      print (a * b)
+#tabuada(a = 1, b = int(input("número")))
+
+#def multiplicação():
+#        a = int(input('Qual valor você deseja?\t'))
+#        print(f'{a} X 1 = ' + str(a *1))   
+#        print(f'{a} X 2 = ' + str(a *2))
+#        print(f'{a} X 3 = ' + str(a *3))
+#        print(f'{a} X 4 = ' + str(a *4))
+#        print(f'{a} X 5 = ' + str(a *5))
+#        print(f'{a} X 6 = ' + str(a *6))
+#        print(f'{a} X 7 = ' + str(a *7))
+#        print(f'{a} X 8 = ' + str(a *8))
+#        print(f'{a} X 9 = ' + str(a *9))
+#        print(f'{a} X 10 = ' + str(a *10))
+#multiplicação()
+
+def tabuada():
+    x = 1
+    a = int(input('Qual valor você deseja?\t'))
+    while x != 11:
+        print(f'{a} X {x} = {a*x}')
+        x += 1
+tabuada()
+tabuada()
