@@ -178,8 +178,18 @@ class Animais:
     
     def animal(self):
         print(f"Se o seu animal pertence ao {self.filo}, {self.classe} e {self.ordem}, ele é da família {self.família}")
+    def checagem(self):
+        lista_animals = ['Chordata']
+        if self.filo in lista_animals:
+            print('É um animal')
+        else:
+            print('Não é um animal')
 
 Urso = Animais('Chordata', 'Mammala', 'Carnívora', 'Ursidae')
 Urso.animal()
+Urso.checagem()
 Canário = Animais('Chordata', 'Aves', 'Passeriformes', 'Fringilidae')
 Canário.animal()
+Canário.checagem()
+Fungo = Animais("Fungo", 'Fungo', 'Fungo', 'Fungo')
+Fungo.checagem()
