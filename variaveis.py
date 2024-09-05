@@ -160,11 +160,26 @@
 #        print(f'{a} X 10 = ' + str(a *10))
 #multiplicação()
 
-def tabuada():
-    x = 1
-    a = int(input('Qual valor você deseja?\t'))
-    while x != 11:
-        print(f'{a} X {x} = {a*x}')
-        x += 1
-tabuada()
-tabuada()
+#def tabuada():
+#    x = 1
+#    a = int(input('Qual valor você deseja?\t'))
+#    while x != 11:
+#        print(f'{a} X {x} = {a*x}')
+#        x += 1
+#tabuada()
+#tabuada()
+
+class Animais:
+    def __init__ (self, filo, classe, ordem, família):
+        self.filo = filo
+        self.classe = classe
+        self.ordem = ordem
+        self.família = família
+    
+    def animal(self):
+        print(f"Se o seu animal pertence ao {self.filo}, {self.classe} e {self.ordem}, ele é da família {self.família}")
+
+Urso = Animais('Chordata', 'Mammala', 'Carnívora', 'Ursidae')
+Urso.animal()
+Canário = Animais('Chordata', 'Aves', 'Passeriformes', 'Fringilidae')
+Canário.animal()
